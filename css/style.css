@@ -1,0 +1,409 @@
+* {
+	font-family:arial ;
+	font-size: 15px;
+}
+body {
+
+	background: url("Assets/image/classroom.png");
+
+}
+
+.navbar {
+	margin-bottom: 0;
+	background-color: #333;
+	border-radius: 0;
+	border:0;
+	margin-bottom: 25px;
+	color: #fff;
+}
+
+.navbar-brand {
+	color: #fff !important;
+	font-size: 22px;
+}
+
+.navi {
+	height: 53px;
+	padding: 0;
+	margin:5px 0;
+	margin-bottom: 25px;
+}
+
+.nav-btn {
+	padding: 0;
+	list-style-type: none;
+}
+
+.nav-btn a li {
+	padding: 14px;
+	float: left;
+	margin-right: 5px;
+	border: 1px #333 solid;
+	font-size: 16px;
+	font-weight: normal;
+	color: black;
+}
+
+.room_number {
+	padding: 10px 10px;
+	border:solid 1px #333;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.sched-main {
+}
+
+.schedule_table {
+	border-collapse: collapse;
+}
+
+.schedule_table th {
+	border: solid 1px #333;
+
+} 
+
+.schedule_table tr {
+	border-bottom: 1px solid #333;
+}
+
+.schedule_table td {
+	border-left: 1px solid #333;
+	border-right: 1px solid #333;
+
+} 
+
+.room-aside {
+	border: 1px solid #333;
+	min-height: 450px;
+}
+
+.room-side-nav {
+	border:solid 1px #333;
+	min-height: 450px;
+	padding: 0;
+}
+
+.room-side-nav-header {
+	padding: 10px;
+	text-align: center;
+	border-bottom: 1px solid #333;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+.room-side-nav nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.room-side-nav nav ul li {
+	text-align: center;
+	padding: 0;
+	margin:5px 0;
+	border-bottom: 1px #333 solid;
+	padding-bottom: 5px;
+}
+
+.room-side-nav nav ul li a {
+	padding: 0;
+}
+
+.room-side-nav nav ul li a:hover {
+	text-decoration: none;
+}
+
+.room-main {
+	padding: 0 10px;
+}
+
+#room-main {
+	border: solid 1px #333;
+
+	min-height: 450px;
+
+}
+
+.link-active {
+	color: white;
+	background: green;
+}
+
+.title-heading {
+	text-align: center;
+	padding: 10px 0;
+	font-weight: bolder;
+	font-size: 18px;
+	border-bottom:1px solid #333;
+
+}
+
+.room-list {
+	text-align: center;
+}
+
+.room-list nav ul {
+	list-style-type: none;
+	padding: 0;
+
+}
+
+.room-list nav ul a li {
+	border-bottom: solid 1px #333;
+	padding: 5px;
+	color: black;
+}
+
+.room-list nav ul a:hover {
+	text-decoration: none;
+}
+
+.room-list nav ul a li:hover {
+	background-color: silver;
+	cursor: pointer;
+
+}
+
+.set-schedule-main {
+	border:solid 1px #333;
+	min-height: 450px;	
+}
+
+.set-schedule-header {
+	padding: 10px;
+	font-weight: bolder;
+	font-size: 18px;
+	border-bottom: 1px #333 solid;
+}
+
+.room-wrapper {
+	padding: 5px;
+
+}
+
+.room-box {
+	padding: 10px;
+}
+
+.room-box-content {
+
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 0 ;
+}
+
+.room-number {
+	font-weight: 800;
+}
+
+.new-room-form-header {
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bolder;
+	border-radius: 5px;
+	border:solid 1px #333;
+	margin-bottom: 10px;
+}
+
+.set_schedule_header {
+	padding: 10px;
+	border-bottom: 1px #333 solid;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.set_schedule_header h2 {
+	padding: 0;
+	margin: 0;
+
+}
+
+.dashboard {
+	padding: 10px;
+	min-height: 450px;
+	border:solid 1px #333;
+	margin-bottom: 40px;
+	padding-bottom: 15px;
+}
+
+.new-room {
+	padding: 10px;
+	
+}
+
+.new-schedule {
+	padding: 10px;
+
+}
+
+.new-room-content {
+	min-height: 250px;
+	border:1px #333 solid;
+}
+
+.new-schedule-content {
+	min-height: 250px;
+	border:1px #333 solid;
+
+}
+
+.new-account {
+	padding: 10px;
+}
+
+.new-account-content {
+	min-height: 250px;
+	border:1px #333 solid;
+
+}
+
+.new-room-title div {
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bolder;
+	border-bottom:solid 1px #333;
+}
+
+.new-schedule-title div {
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bolder;
+	border-bottom:solid 1px #333;
+}
+
+.new-account-title div {
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bolder;
+	border-bottom:solid 1px #333;
+}
+
+.new-room-body ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.new-room-body ul li {
+	padding: 5px;
+	border-bottom: solid 1px #333;
+}
+
+
+.accounts {
+	min-height: 450px;
+	
+}
+
+.accounts-side-nav {
+	border: 1px #333 solid;
+	min-height:450px;
+}
+
+.accounts-main {
+	min-height: 450px;
+	border: 1px #333 solid;
+}	
+
+.accounts-menu-header {
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bolder;
+	border-bottom: 1px #333 solid;
+}
+
+.accounts-side-nav .row ul {
+	text-decoration: none;
+	padding: 0;
+	list-style-type: none;
+}
+
+.accounts-side-nav .row ul li {
+	text-align: center;
+	padding: 5px;
+	border-bottom: 1px solid #333;
+
+}
+
+.accounts-side-nav .row ul li a {
+	color: black;
+}
+
+.accounts-main-header {
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bolder;
+	border-bottom: 1px solid #333;
+	margin-bottom: 10px;
+}
+
+.setting {
+	min-height: 450px;
+	border: 1px #333 solid;
+}
+
+.setting-header {
+	padding: 10px;
+	font-weight: bolder;
+	font-size: 18px;
+	border-bottom: 1px #333 solid;
+}
+
+.setting-body {
+	padding: 30px;
+	border: solid 1px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.setting-body .lb {
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.setting-body .lb span {
+	float: right;
+}
+
+.setting-body .txt {
+	font-size: 16px;
+}
+
+.setting_btn {
+	font-weight: 600;
+	border-radius: 3px;
+	
+}
+
+.room-menu li a {
+	color: #333;
+}
+
+.form-wrapper {
+
+	margin-top: 20px;
+	padding: 20px;
+
+}
+
+.dashboard-card {
+
+	padding: 10px;
+}
+
+.dashboard-card div  {
+	text-align: center;
+	border: solid 0.5px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.dashboard-card .glyphicon {
+	font-size: 100px;
+	color: black;
+
+}
+.dashboard-card div:hover {
+	border-bottom: solid 13px;
+	cursor: pointer;
+}
